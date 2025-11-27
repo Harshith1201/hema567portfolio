@@ -24,7 +24,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <Button variant="default" size="lg" className="group" asChild>
-              <a href="/HEMA_Rudra.pdf" download="Satyanarayana_Rudra_Resume.pdf">
+              <a href={`${import.meta.env.BASE_URL}HEMA_Rudra.pdf`} download="Satyanarayana_Rudra_Resume.pdf">
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download Resume
               </a>
