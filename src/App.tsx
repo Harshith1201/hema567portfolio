@@ -21,7 +21,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/hema567portfolio">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/focus-areas" element={<FocusAreas />} />
